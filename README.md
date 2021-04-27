@@ -3,7 +3,8 @@
 [![Build Status](https://travis-ci.org/Raekkeri/django-requestlogs.svg?branch=master)](https://travis-ci.org/Raekkeri/django-requestlogs)
 ![PyPI](https://img.shields.io/pypi/v/django-requestlogs.svg)
 
-django-requestlogs is a package providing middleware and other helpers for audit logging.
+django-welcome-requestlogs is a package forked from Raekkeri's django-requestlogs,
+providing middleware and other helpers for audit logging.
 The middleware collects information about request-response cycle into log entries. The
 collected information can be fully customized, but the out-of-the-box implementation
 includes
@@ -26,10 +27,10 @@ Once installed, log storage should start showing entries such as the following:
 
 ## Motivation
 
-django-requestlogs attempts to provide tools for implementing audit logging (audit trail)
+django-welcome-requestlogs attempts to provide tools for implementing audit logging (audit trail)
 to systems that require such feature. These systems typically must have the ability to
 tell "what information the end-user has accessed (and what information was sent to the
-system)?". django-requestlogs hooks into the Django REST framework in the simplest
+system)?". django-welcome-requestlogs hooks into the Django REST framework in the simplest
 way possible while logging every request without the need of remembering to enable it
 for each view separately.
 
@@ -51,7 +52,7 @@ Optional dependencies:
 
 Install using `pip`:
 
-    pip install django-requestlogs
+    pip install django-welcome-requestlogs
 
 Add `'requestlogs.middleware.RequestLogsMiddleware'` to `MIDDLEWARE` settings.
 

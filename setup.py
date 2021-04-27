@@ -14,18 +14,17 @@ dev_requirements = (
 )
 
 setup(
-    name='django-requestlogs',
+    name='welcome-django-requestlogs',
     zip_safe=False,
-    version='0.2.3',
+    version='0.0.3',
     description='Audit logging for Django and Django Rest Framework',
     long_description=long_description,
     long_description_content_type='text/markdown',
     classifiers=[],
     keywords=['django', 'log', 'logging'],
-    author='Teemu Husso',
-    author_email='teemu.husso@gmail.com',
-    url='https://github.com/Raekkeri/django-requestlogs',
-    download_url='https://github.com/raekkeri/django-requestlogs/tarball/0.1',
+    author='Welcome Engineering',
+    author_email='platform@heywelcome.com',
+    url='https://github.com/pineapplehq/django-requestlogs',
     packages=find_packages(exclude=['tests']),
     install_requires=requirements,
     extras_require={

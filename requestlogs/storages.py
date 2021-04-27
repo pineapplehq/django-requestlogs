@@ -35,7 +35,6 @@ class BaseEntrySerializer(serializers.Serializer):
 
     class UserSerializer(serializers.Serializer):
         id = serializers.IntegerField()
-        username = serializers.CharField()
 
     action_name = serializers.CharField(read_only=True)
     execution_time = serializers.DurationField(read_only=True)

@@ -11,3 +11,4 @@ tags
 dist/
 build/
 .idea
+env/*
